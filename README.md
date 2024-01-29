@@ -4,6 +4,10 @@
 
 # ScholarPro - Windows LMS Build
 
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
+[![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://visualstudio.microsoft.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+
 ScholarPro is a comprehensive Learning Management System (LMS) I developed using C# in Visual Studio, specifically designed for Windows environments. 
 This system aims to provide an efficient and user-friendly platform for educational institutions, instructors, and students to streamline the learning process.
 
