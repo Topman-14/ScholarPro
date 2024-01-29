@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ScholarPro_CSC221_Project.exe" version="1.0.0.0" publicKeyToken="4cef7259947d73c5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ScholarPro_CSC221_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ScholarPro_CSC221_Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="356864">
+      <assemblyIdentity name="MySql.Data" version="6.3.7.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uXxglRvyQc1QNYClKRziT9FDbR2j+/512Hyt0dcuSA8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScholarPro_CSC221_Project.exe" size="809472">
+      <assemblyIdentity name="ScholarPro_CSC221_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nb6OI07KPrrI3tkiSpWQH0AisEVU2fAi8LQl0hnrYWg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ScholarPro_CSC221_Project.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-QLSDJF4\TOPE" issuerKeyHash="cfe287925afb3d113a77c06ce2091fc466cd11ed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+504Yyh4qF16mQNlXTK/B8ileO7GT8gxakWwXdaM/hs=</DigestValue></Reference></SignedInfo><SignatureValue>MTG+7N6tjkC9mk8ZVIgZL7W1k1eS2qDI3RDxECuYo7L2xP1KsobyGV2v9VN0QU3to43CkipfwF6fKicNEL59nHrFl/uAcO+gWZxbT/ePtvyDjEq3PtYXlH9kgCJ5Y3AOLkhOdVUFHhSu4kQsQzldxijK4cbJ18osBMiaki7tQBw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rxoh/9R/RemAOT+XxwiVMS5qcGtxGEuf05HhWvSjCMvAlVMsyqmeU0z4eIS/5IC5LGDtoiN+Vu+nEi+AiOyVvDnSL8aaBwn3aRqSmfYv4DMn3nE9KezTWvaGsz4ZudziApv3czKITdm0yF/IgwNHRKfRu6OgM5s85OwWAzhggKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1bfe8cd65db0456a31c84fc6ee78a5c807bf325d6503997a5da8782863389dfb" Description="" Url=""><as:assemblyIdentity name="ScholarPro_CSC221_Project.exe" version="1.0.0.0" publicKeyToken="4cef7259947d73c5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-QLSDJF4\TOPE</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NGoE83JB7osiOQ4koJLYYhRJ79nRKZn+g5+UAmmmxKs=</DigestValue></Reference></SignedInfo><SignatureValue>LCoprQgn+wxRjnTv2zc7BRuJCjOReKps/wvn/odk63c9UFKtBc8VaTHnBp+ggU80+EVlW5d6vwnN71WyOX6fdq5iPJzKdMWdQKrt3/wHeA0i3HHExLmKg8ucmgF+9Q2BX9/JL+M41FELykxsBeff5LePHzsluLnUT76hN99GZoQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rxoh/9R/RemAOT+XxwiVMS5qcGtxGEuf05HhWvSjCMvAlVMsyqmeU0z4eIS/5IC5LGDtoiN+Vu+nEi+AiOyVvDnSL8aaBwn3aRqSmfYv4DMn3nE9KezTWvaGsz4ZudziApv3czKITdm0yF/IgwNHRKfRu6OgM5s85OwWAzhggKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQH329PiLTGL1HVBn4zRo2tjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAFEATABTAEQASgBGADQAXABUAE8AUABFMB4XDTIzMDYyNDIxMjAxMFoXDTI0MDYyNDAzMjAxMFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBRAEwAUwBEAEoARgA0AFwAVABPAFAARTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArxoh/9R/RemAOT+XxwiVMS5qcGtxGEuf05HhWvSjCMvAlVMsyqmeU0z4eIS/5IC5LGDtoiN+Vu+nEi+AiOyVvDnSL8aaBwn3aRqSmfYv4DMn3nE9KezTWvaGsz4ZudziApv3czKITdm0yF/IgwNHRKfRu6OgM5s85OwWAzhggKECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCTTx9s39qRMNcCUyg+g/Eq/ZfSB1FyYAJ1CDzSejGO57UAI7AsQJcwk1/pBQhGAe/dNcHZe1JznE96tCB7gl6D/3IJwHFLwWCsMRnrFDFVnM+NRTsDeQvl0azYBa0eqYcW4A0Q+bFFPfT2+jjaezkGd4oc+7aTzUxyGUsJBaKMnA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
